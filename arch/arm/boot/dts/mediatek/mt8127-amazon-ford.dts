@@ -6,19 +6,13 @@
 / {
 	model = "MediaTek MT8127 Amazon Ford";
 	compatible = "amazon,ford", "mediatek,mt8127";
-
-	memory {
-		device_type = "memory";
-		reg = <0 0x80000000 0 0x40000000>;
-	};
 	
 	aliases {
 		serial0 = &uart0;
-		display0 = &framebuffer0;
 	};
 
 	chosen {
-		stdout-path = "display0";
+		stdout-path = "serial0:921600n8";
 
 		framebuffer0: framebuffer@b7a00000 {
 			compatible = "simple-framebuffer";
@@ -30,11 +24,12 @@
 		};
 	};
 
-	reserved-memory {
-		#address-cells = <2>;
-		#size-cells = <2>;
-		ranges;
+	memory@80000000 {
+		device_type = "memory";
+		reg = <0 0x80000000 0 0x40000000>;
+	};
 
+	reserved-memory {
 		framebuffer_reserved: framebuffer@b7a00000 {
 			reg = <0 0xb7a00000 0 0x1000000>;
 			no-map;
