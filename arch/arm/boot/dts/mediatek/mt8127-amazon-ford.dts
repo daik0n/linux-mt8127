@@ -6,7 +6,7 @@
 / {
 	model = "MediaTek MT8127 Amazon Ford";
 	compatible = "amazon,ford", "mediatek,mt8127";
-	
+
 	aliases {
 		serial0 = &uart0;
 	};
