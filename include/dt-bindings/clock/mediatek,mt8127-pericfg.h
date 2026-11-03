@@ -1,0 +1,42 @@
+/* SPDX-License-Identifier: (GPL-2.0-only OR BSD-2-Clause) */
+
+#ifndef _DT_BINDINGS_CLK_MT8127_PERICFG_H
+#define _DT_BINDINGS_CLK_MT8127_PERICFG_H
+
+#define CLK_PERI_NFI		1
+#define CLK_PERI_THERM		2
+#define CLK_PERI_PWM1		3
+#define CLK_PERI_PWM2		4
+#define CLK_PERI_PWM3		5
+#define CLK_PERI_PWM4		6
+#define CLK_PERI_PWM5		7
+#define CLK_PERI_PWM6		8
+#define CLK_PERI_PWM7		9
+#define CLK_PERI_PWM		10
+#define CLK_PERI_USB0		11
+#define CLK_PERI_USB1		12
+#define CLK_PERI_AP_DMA		13
+#define CLK_PERI_MSDC30_0	14
+#define CLK_PERI_MSDC30_1	15
+#define CLK_PERI_MSDC30_2	16
+#define CLK_PERI_NLI		17
+#define CLK_PERI_UART0		18
+#define CLK_PERI_UART1		19
+#define CLK_PERI_UART2		20
+#define CLK_PERI_UART3		21
+#define CLK_PERI_BTIF		22
+#define CLK_PERI_I2C0		23
+#define CLK_PERI_I2C1		24
+#define CLK_PERI_I2C2		25
+#define CLK_PERI_I2C3		26
+#define CLK_PERI_AUXADC		27
+#define CLK_PERI_SPI0		28
+#define CLK_PERI_ETH		29
+#define CLK_PERI_USB0_MCU	30
+#define CLK_PERI_USB1_MCU	31
+#define CLK_PERI_USB_SLV	32
+#define CLK_PERI_GCPU		33
+#define CLK_PERI_NFI_ECC	34
+#define CLK_PERI_NFIPAD		35
+
+#endif /* _DT_BINDINGS_CLK_MT8127_PERICFG_H */

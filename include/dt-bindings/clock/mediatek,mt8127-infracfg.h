@@ -1,0 +1,21 @@
+/* SPDX-License-Identifier: (GPL-2.0-only OR BSD-2-Clause) */
+
+#ifndef _DT_BINDINGS_CLK_MT8127_INFRACFG_H
+#define _DT_BINDINGS_CLK_MT8127_INFRACFG_H
+
+#define CLK_INFRA_DBGCLK		1
+#define CLK_INFRA_SMI			2
+#define CLK_INFRA_AUDIO			3
+#define CLK_INFRA_EFUSE			4
+#define CLK_INFRA_L2C_SRAM		5
+#define CLK_INFRA_M4U			6
+#define CLK_INFRA_CONNMCU		7
+#define CLK_INFRA_TRNG			8
+#define CLK_INFRA_CPUM			9
+#define CLK_INFRA_KP			10
+#define CLK_INFRA_CEC			11
+#define CLK_INFRA_IRRX			12
+#define CLK_INFRA_PMICSPI_SHARE		13
+#define CLK_INFRA_PMICWRAP		14
+
+#endif /* _DT_BINDINGS_CLK_MT8127_INFRACFG_H */
